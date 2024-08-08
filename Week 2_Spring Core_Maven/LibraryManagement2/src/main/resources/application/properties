@@ -1,0 +1,16 @@
+# src/main/resources/application.properties
+
+# Data Source Configuration
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+# JPA Configuration
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+# Hibernate DDL Auto
+spring.jpa.hibernate.ddl-auto=update
+
+# H2 Console
+spring.h2.console.enabled=true
